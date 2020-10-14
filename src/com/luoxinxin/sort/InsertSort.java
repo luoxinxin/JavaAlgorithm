@@ -20,7 +20,7 @@ public class InsertSort {
                 arr[insertIndex+1] = arr[insertIndex];//将大于待插入的数据往后挪一个位置
             }
 
-            if(insertIndex!=i){//找到插入数据的位置，将数据插入到insertIndex
+            if(insertIndex!=i){//找到插入数据的位置，将数据插入到insertIndex，
                 arr[insertIndex]=insertVal;
             }
         }
